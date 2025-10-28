@@ -103,5 +103,5 @@ Mejora	Descripción
 🔹 Retroalimentación	Mensajes de error, éxito y advertencias
 
 
+<img width="1392" height="806" alt="employes png" src="https://github.com/user-attachments/assets/2780c99c-d31f-4bba-ab86-379a931222da" />
 
-<img width="1536" height="1024" alt="TOPICOS TRA" src="https://github.com/user-attachments/assets/2f067c1d-037d-4925-8c73-7b18ee6f49fb" />
