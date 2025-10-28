@@ -25,26 +25,31 @@ El proyecto está construido con **Programación Orientada a Objetos (POO)** y b
 
 ## ⚙️ Instalación y configuración
 
-# 1️⃣ Instala los requisitos
+## 1️⃣ Instala los requisitos
 Abre una terminal y ejecuta:
 
 ```bash
 pip install mysql-connector-python
+```
 💡 Tkinter ya viene incluido con Python en Windows y la mayoría de distribuciones de Linux.
 Si no lo tienes, en Ubuntu puedes instalarlo con:
 
-bash
-Copiar código
+
+
+
+```bash
 sudo apt install python3-tk
+```
 2️⃣ Crea la base de datos MySQL
 Conéctate a MySQL y ejecuta:
 
 
 
 sql
-Copiar código
+```bash
 CREATE DATABASE empresa;
 USE empresa;
+```
 No es necesario crear la tabla manualmente — el programa la genera automáticamente.
 
 
@@ -53,38 +58,38 @@ No es necesario crear la tabla manualmente — el programa la genera automática
 En el archivo principal (registro_empleados_gui.py), ajusta tus credenciales si es necesario:
 
 python
-Copiar código
+```bash
 self.conexion = mysql.connector.connect(
     host="localhost",
     user="root",
     password="TuContraseña",
     database="empresa"
 )
-
+```
 
 
 4️⃣ Ejecuta la aplicación
 Desde la terminal, corre el programa:
 
-bash
-Copiar código
+```bash
 python registro_empleados_gui.py
 Se abrirá la ventana gráfica del sistema.
 Podrás agregar, visualizar y eliminar empleados fácilmente. 🎯
-
+```
 
 
 
 
 🗃️ Estructura de la base de datos
 sql
+```bash
 CREATE TABLE empleados (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(100) NOT NULL,
   sexo VARCHAR(20) NOT NULL,
   correo VARCHAR(100) NOT NULL
 );
-
+```
 
 
 
