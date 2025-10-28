@@ -25,7 +25,7 @@ El proyecto está construido con **Programación Orientada a Objetos (POO)** y b
 
 ## ⚙️ Instalación y configuración
 
-### 1️⃣ Instala los requisitos
+# 1️⃣ Instala los requisitos
 Abre una terminal y ejecuta:
 
 ```bash
@@ -39,11 +39,15 @@ sudo apt install python3-tk
 2️⃣ Crea la base de datos MySQL
 Conéctate a MySQL y ejecuta:
 
+
+
 sql
 Copiar código
 CREATE DATABASE empresa;
 USE empresa;
 No es necesario crear la tabla manualmente — el programa la genera automáticamente.
+
+
 
 3️⃣ Configura la conexión en el código
 En el archivo principal (registro_empleados_gui.py), ajusta tus credenciales si es necesario:
@@ -56,6 +60,9 @@ self.conexion = mysql.connector.connect(
     password="TuContraseña",
     database="empresa"
 )
+
+
+
 4️⃣ Ejecuta la aplicación
 Desde la terminal, corre el programa:
 
@@ -65,6 +72,10 @@ python registro_empleados_gui.py
 Se abrirá la ventana gráfica del sistema.
 Podrás agregar, visualizar y eliminar empleados fácilmente. 🎯
 
+
+
+
+
 🗃️ Estructura de la base de datos
 sql
 CREATE TABLE empleados (
@@ -73,6 +84,10 @@ CREATE TABLE empleados (
   sexo VARCHAR(20) NOT NULL,
   correo VARCHAR(100) NOT NULL
 );
+
+
+
+
 ✨ Mejoras frente al ejemplo original
 Mejora	Descripción
 🔹 POO aplicada	Separación en clases: conexión y lógica de negocio
@@ -81,3 +96,7 @@ Mejora	Descripción
 🔹 Validación de datos	Verifica campos vacíos antes de insertar
 🔹 Interfaz mejorada	Combobox, Treeview, botones y colores
 🔹 Retroalimentación	Mensajes de error, éxito y advertencias
+
+
+
+<img width="1536" height="1024" alt="TOPICOS TRA" src="https://github.com/user-attachments/assets/2f067c1d-037d-4925-8c73-7b18ee6f49fb" />
