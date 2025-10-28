@@ -95,11 +95,17 @@ CREATE TABLE empleados (
 
 ✨ Mejoras frente al ejemplo original
 Mejora	Descripción
+
 🔹 POO aplicada	Separación en clases: conexión y lógica de negocio
+
 🔹 Seguridad	Consultas SQL parametrizadas (sin inyección)
+
 🔹 Autocreación de tabla	No requiere crear manualmente la estructura
+
 🔹 Validación de datos	Verifica campos vacíos antes de insertar
+
 🔹 Interfaz mejorada	Combobox, Treeview, botones y colores
+
 🔹 Retroalimentación	Mensajes de error, éxito y advertencias
 
 
